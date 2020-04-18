@@ -1,0 +1,324 @@
+body {
+    background: url(../img/backgrounds/bg.png) center center no-repeat fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+a, a:visited {
+    color: white;
+    font-size: 12px;
+    font-family: rFont;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+#time {
+    color:white;
+    font-size: 128px;
+    font-family: geometos;
+    font-weight: normal;
+}
+
+#calendar {
+    color: white;
+    font-family: century_gothic;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+}
+
+#menuButton, #menuButton:visited, #menuButton:active {
+    background-color: transparent;
+    background-image: url(../img/menu/menuButtonDefault.png);
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: relative;
+    top: 3.3px;
+}
+
+#menuButton:hover {
+    background-image: url(../img/menu/menuButton_hover.png);
+}
+
+#menu {
+    background-color: white;
+    width: 312px;
+    height: 378px;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    right: 1%;
+    top: 7%;
+    overflow-y: auto;
+}
+
+#topLinks {
+    margin: 10px;
+    display: inline-block;
+    
+}
+
+/* Menu Logos */
+
+#googleDocs {
+    background-image: url(../img/menu/menuLogos/docsLogo.png);
+}
+
+#googleSlides {
+    background-image: url(../img/menu/menuLogos/slidesLogo.png);
+}
+
+#googleForms {
+    background-image: url(../img/menu/menuLogos/formsLogo.png);
+}
+
+#googleMenu {
+    background-image: url(../img/menu/menuLogos/googleLogo.png);
+}
+
+#googleMaps {
+    background-image: url(../img/menu/menuLogos/mapsLogo.png);
+}
+
+#googleTrans {
+    background-image: url(../img/menu/menuLogos/translateLogo.png);
+}
+
+#youtubeMenu {
+    background-image: url(../img/menu/menuLogos/youtubeLogo.png);
+}
+
+#driveMenu {
+    background-image: url(../img/menu/menuLogos/driveLogo.png);
+}
+
+#photos {
+    background-image: url(../img/menu/menuLogos/photosLogo.png);
+}
+
+#github {
+    background-image: url(../img/menu/menuLogos/githubLogo.png);
+}
+
+#code {
+    background-image: url(../img/menu/menuLogos/code.png);
+}
+
+#office {
+    background-image: url(../img/menu/menuLogos/officeLogo.png);
+}
+
+#onedrive {
+    background-image: url(../img/menu/menuLogos/onedriveLogo.png);
+}
+
+#teams {
+    background-image: url(../img/menu/menuLogos/teams.png);
+}
+
+#outlook {
+    background-image: url(../img/menu/menuLogos/outlookLogo.png);
+}
+
+#windscribe {
+    background-image: url(../img/menu/menuLogos/windscribeLogo.png);
+}
+
+#lichess {
+    background-image: url(../img/menu/menuLogos/lichessLogo.png);
+}
+
+#weebly {
+    background-image: url(../img/menu/menuLogos/weeblyLogo.png);
+}
+
+#webStore {
+    background-image: url(../img/menu/menuLogos/webStore.png);   
+}
+
+#newTab, #newTab:active {
+    background-image: url(../img/menu/menuLogos/newTab.png);
+    width: 266px;
+    color: #e8e8e8;
+
+}
+
+#newTab:hover {
+    text-decoration: none;
+}
+
+
+/* Logo IDs */
+
+
+
+#youtubeLogo{
+    background-image: url(../img/logos/youtubeLogo.png);
+}
+
+#redditLogo{
+    background-image: url(../img/logos/redditLogo.png);
+}
+
+#discordLogo{
+    background-image: url(../img/logos/discordLogo.png);
+}
+
+#driveLogo{
+    background-image: url(../img/logos/driveLogo.png);
+}
+
+#gmailLogo{
+    background-image: url(../img/logos/gmailLogo.png);
+}
+
+.topHeader {
+    width: 99%;
+    height: 5%;
+    text-align: right;
+    position: absolute;
+    top: 1%;
+}
+
+.menuLogos {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    margin: 10px;
+    border-radius: 4px;
+    background-size: 64px, 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menuLogos:hover {
+    background-color: #e8e8e8;
+    border-color: #e8e8e8;
+}
+
+.footer {
+    width: 98%;
+    height: 3%;
+    text-align: right;
+    position: absolute;
+    bottom: 2%;
+}
+
+.logos {
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    border-radius: 12px;
+    border: 8px;
+    border-color: transparent;
+    background-size: 94px 94px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 36px;
+    margin-top: 8px;
+}
+
+.sideLogos {
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    border-radius: 12px;
+    border: 8px;
+    border-color: transparent;
+    background-size: 94px 94px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 36px;
+    margin-top: 8px;
+}
+
+.logos:hover {
+    background-color: #4d4d4d;
+    border-color: #4d4d4d;
+}
+
+.sideLogos:hover {
+    background-color: #4d4d4d;
+    border-color: #4d4d4d;
+}
+
+.dockImage {
+    position: absolute;
+    left: 50%;
+    bottom: -3%;
+    margin-left: -374px;
+    display: inline-block;
+    background-color: #202020;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.dockImage:hover {
+    animation: fadeIn linear 0.2s 1 normal forwards;
+}
+
+.dockImage:not(:hover){
+    animation: fadeOut linear 0.2s 1 normal forwards;
+}
+
+.startFade {
+    animation: fadeIn ease 2s;
+}
+
+/* Init */
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 0.9;}
+}
+
+@keyframes fadeOut {
+    0% {opacity: 0.9;}
+    100% {opacity: 0;}
+}
+
+@font-face {
+    font-family: century_gothic;
+    src: url(../fonts/century_gothic.ttf);
+}
+
+@font-face {
+    font-family: rFont;
+    src: url(../fonts/rFont.ttf);
+}
+
+@font-face {
+    font-family: geometos;
+    src: url(../fonts/geometos.ttf);
+}
+
+/* others */
+
+#blank:hover {
+    background-color: transparent;
+    border: transparent;
+}
+
+#center {
+    width: 630px;
+    height: 115px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    position: relative;
+}
+
+.spacedLinks {
+margin-left: 4px;
+margin-right: 4px;
+}
