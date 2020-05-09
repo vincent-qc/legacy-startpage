@@ -1,5 +1,5 @@
 body {
-    background: url(../img/backgrounds/bg.png) center center no-repeat fixed;
+    background: url(../img/backgrounds/ussr.png) center center no-repeat fixed;
     background-size: cover;
     overflow: hidden;
 }
@@ -14,6 +14,8 @@ a, a:visited {
 a:hover, a:active {
     text-decoration: underline;
 }
+
+/*----- Main Items -----*/
 
 #time {
     color:white;
@@ -46,7 +48,7 @@ a:hover, a:active {
 
 #menu {
     background-color: white;
-    width: 312px;
+    width: 306px;
     height: 378px;
     border: 5px solid white;
     border-radius: 15px;
@@ -63,7 +65,7 @@ a:hover, a:active {
     
 }
 
-/* Menu Logos */
+/* ----- Menu Logos ----- */
 
 #googleDocs {
     background-image: url(../img/menu/menuLogos/docsLogo.png);
@@ -153,7 +155,7 @@ a:hover, a:active {
 }
 
 
-/* Logo IDs */
+/* ----- Logo IDs ----- */
 
 
 
@@ -177,12 +179,62 @@ a:hover, a:active {
     background-image: url(../img/logos/gmailLogo.png);
 }
 
+/* ----- Main Classes ----- */
+
 .topHeader {
     width: 99%;
     height: 5%;
     text-align: right;
     position: absolute;
     top: 1%;
+}
+
+.search {
+    background-color:transparent;
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 4px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    outline: none;
+}
+
+.bar {
+    background-color: transparent;
+    color: white;
+    width: 368px;
+    height: 40px;
+    position: absolute;
+    margin-left: -32%;
+    font-size: 24px;
+    font-family: rFont;
+    border: none;
+    outline: none;
+}
+
+.submit {
+    background: url(../img/search.png);
+    background-size: 40px, 40px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 105px;
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+
+.submit:hover {
+    animation: fadeIn linear 0.18s 1 normal forwards;
+}
+
+.submit:not(:hover){
+    animation: fadeOut linear 0.18s 1 normal forwards;
 }
 
 .menuLogos {
@@ -221,7 +273,7 @@ a:hover, a:active {
     background-position: center;
     margin-right: 24px;
     margin-left: 24px;
-    margin-bottom: 36px;
+    margin-bottom: 6px;
     margin-top: 8px;
 }
 
@@ -237,7 +289,7 @@ a:hover, a:active {
     background-position: center;
     margin-right: 10px;
     margin-left: 10px;
-    margin-bottom: 36px;
+    margin-bottom: 6px;
     margin-top: 8px;
 }
 
@@ -254,12 +306,14 @@ a:hover, a:active {
 .dockImage {
     position: absolute;
     left: 50%;
-    bottom: -3%;
+    bottom: 1%;
     margin-left: -374px;
-    display: inline-block;
     background-color: #202020;
-    border: 5px;
-    border-radius: 10px;
+    opacity: 0;
+    border: 3px;
+    border-color: #5c5c5c;
+    border-style: solid;
+    border-radius: 12px;
 }
 
 .dockImage:hover {
@@ -274,15 +328,15 @@ a:hover, a:active {
     animation: fadeIn ease 2s;
 }
 
-/* Init */
+/* ----- Assets ----- */
 
 @keyframes fadeIn {
     0% {opacity: 0;}
-    100% {opacity: 0.9;}
+    100% {opacity: 0.8;}
 }
 
 @keyframes fadeOut {
-    0% {opacity: 0.9;}
+    0% {opacity: 0.8;}
     100% {opacity: 0;}
 }
 
@@ -301,7 +355,7 @@ a:hover, a:active {
     src: url(../fonts/geometos.ttf);
 }
 
-/* others */
+/* ----- Others ----- */
 
 #blank:hover {
     background-color: transparent;
