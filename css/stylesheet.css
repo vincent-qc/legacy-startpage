@@ -1,5 +1,5 @@
 body {
-    background: url(../img/backgrounds/bg.png) center center no-repeat fixed;
+    background: url(../img/backgrounds/ussr.png) center center no-repeat fixed;
     background-size: cover;
     overflow: hidden;
 }
@@ -131,10 +131,6 @@ a:hover, a:active {
     background-image: url(../img/menu/menuLogos/windscribeLogo.png);
 }
 
-#lichess {
-    background-image: url(../img/menu/menuLogos/lichessLogo.png);
-}
-
 #weebly {
     background-image: url(../img/menu/menuLogos/weeblyLogo.png);
 }
@@ -143,21 +139,7 @@ a:hover, a:active {
     background-image: url(../img/menu/menuLogos/webStore.png);   
 }
 
-#newTab, #newTab:active {
-    background-image: url(../img/menu/menuLogos/newTab.png);
-    width: 266px;
-    color: #e8e8e8;
-
-}
-
-#newTab:hover {
-    text-decoration: none;
-}
-
-
 /* ----- Logo IDs ----- */
-
-
 
 #youtubeLogo{
     background-image: url(../img/logos/youtubeLogo.png);
@@ -237,6 +219,8 @@ a:hover, a:active {
     animation: fadeOut linear 0.18s 1 normal forwards;
 }
 
+/* -------  Menu ------- */
+
 .menuLogos {
     display: inline-block;
     width: 72px;
@@ -293,14 +277,8 @@ a:hover, a:active {
     margin-top: 8px;
 }
 
-.logos:hover {
-    background-color: #4d4d4d;
-    border-color: #4d4d4d;
-}
-
-.sideLogos:hover {
-    background-color: #4d4d4d;
-    border-color: #4d4d4d;
+.logos:hover, .sideLogos:hover{
+    animation: bgChange ease 0.18s 1 normal forwards;
 }
 
 .dockImage {
@@ -317,11 +295,11 @@ a:hover, a:active {
 }
 
 .dockImage:hover {
-    animation: fadeIn linear 0.2s 1 normal forwards;
+    animation: fadeIn linear 0.3s 1 normal forwards;
 }
 
 .dockImage:not(:hover){
-    animation: fadeOut linear 0.2s 1 normal forwards;
+    animation: fadeOut linear 0.3s 1 backwards reverse;
 }
 
 .startFade {
@@ -338,6 +316,11 @@ a:hover, a:active {
 @keyframes fadeOut {
     0% {opacity: 0.8;}
     100% {opacity: 0;}
+}
+
+@keyframes bgChange {
+    0% {background-color: transparent;}
+    100% {background-color: #4d4d4d;}
 }
 
 @font-face {
