@@ -278,7 +278,8 @@ a:hover, a:active {
 }
 
 .logos:hover, .sideLogos:hover{
-    animation: bgChange ease 0.18s 1 normal forwards;
+    background-color: #4d4d4d;
+    border-color: #4d4d4d;
 }
 
 .dockImage {
@@ -316,11 +317,6 @@ a:hover, a:active {
 @keyframes fadeOut {
     0% {opacity: 0.8;}
     100% {opacity: 0;}
-}
-
-@keyframes bgChange {
-    0% {background-color: transparent;}
-    100% {background-color: #4d4d4d;}
 }
 
 @font-face {
