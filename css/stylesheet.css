@@ -299,7 +299,7 @@ a:hover, a:active {
 }
 
 .dockImage:not(:hover){
-    animation: fadeOut linear 0.3s 1 backwards reverse;
+    animation: fadeOut linear 0.3s 1 normal forwards;
 }
 
 .startFade {
