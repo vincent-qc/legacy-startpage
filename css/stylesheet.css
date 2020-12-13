@@ -50,7 +50,7 @@ a:hover, a:active {
     background-color: white;
     width: 306px;
     height: 378px;
-    border: 5px solid white;
+    border: 15px solid white;
     border-radius: 15px;
     padding: 10px;
     position: absolute;
@@ -223,10 +223,10 @@ a:hover, a:active {
 
 .menuLogos {
     display: inline-block;
-    width: 72px;
-    height: 72px;
-    margin: 10px;
-    border-radius: 4px;
+    width: 80px;
+    height: 80px;
+    margin: 6px;
+    border-radius: 16px;
     background-size: 64px, 64px;
     background-repeat: no-repeat;
     background-position: center;
@@ -247,52 +247,55 @@ a:hover, a:active {
 
 .logos {
     display: inline-block;
-    width: 108px;
-    height: 108px;
-    border-radius: 12px;
-    border: 8px;
+    width: 112px;
+    height: 112px;
+    border-radius: 80px;
+    border: 30px;
     border-color: transparent;
-    background-size: 94px 94px;
+    background-size: 88px 88px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 24px;
-    margin-left: 24px;
+    margin-right:12px;
+    margin-left: 12px;
     margin-bottom: 6px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .sideLogos {
     display: inline-block;
-    width: 108px;
-    height: 108px;
-    border-radius: 12px;
-    border: 8px;
+    width: 112px;
+    height: 112px;
+    border-radius: 80px;
+    border: 30px;
     border-color: transparent;
-    background-size: 94px 94px;
+    background-size: 80px 80px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right:12px;
+    margin-left: 12px;
     margin-bottom: 6px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .logos:hover, .sideLogos:hover{
-    background-color: #4d4d4d;
-    border-color: #4d4d4d;
+    background-color: #3b3b3b;
+    border-color: #3b3b3b;
 }
 
 .dockImage {
     position: absolute;
-    left: 50%;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    left: 31.8%;
     bottom: 1%;
-    margin-left: -374px;
     background-color: #202020;
     opacity: 0;
     border: 3px;
     border-color: #5c5c5c;
     border-style: solid;
-    border-radius: 12px;
+    border-radius: 100px;
+    margin-bottom: 5px;
 }
 
 .dockImage:hover {
@@ -311,11 +314,11 @@ a:hover, a:active {
 
 @keyframes fadeIn {
     0% {opacity: 0;}
-    100% {opacity: 0.8;}
+    100% {opacity: 1;}
 }
 
 @keyframes fadeOut {
-    0% {opacity: 0.8;}
+    0% {opacity: 1;}
     100% {opacity: 0;}
 }
 
@@ -352,6 +355,6 @@ a:hover, a:active {
 }
 
 .spacedLinks {
-margin-left: 4px;
-margin-right: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
 }

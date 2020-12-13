@@ -4,26 +4,42 @@
     <head>
       <title>crab lives here</title>
       <link rel="stylesheet" href="css/stylesheet.css">
-      <link rel="shortcut icon" href="img/george in april.png">
+      <link rel="shortcut icon" href="img/favicon.png">
       <meta charset="utf-8">
     </head>
+
+    <!-- The Body -->
     <body class="startFade">
       <script src="js/divClose.js"> </script>
+
+      <!-- Center of the Webpage -->
       <div id="center">
+
+        <!-- The Clock, uses a JS Script -->
         <p id="time"></p>
+
+        <!-- The search bar, uses a form and two inputs -->
         <form method="GET" action="http://www.google.com/search" class="search">
           <input name="as_q" class="bar" placeholder="Search" autofocus>
           <button type="submit" class="submit"></button>
         </form>
       </div>
+
+      <!-- The Top Part of the Webpage -->
       <div class="topHeader">
+
+        <!-- The Links at the Top -->
         <span id="topLinks">
           <a id="google" href="https://www.google.ca/" class="spacedLinks">Google</a>
           <a id="account" href="https://myaccount.google.com/?utm_source=OGB&tab=rk&utm_medium=act&pli=1" target="_blank" class="spacedLinks">Account</a>
+
+          <!-- The menu button, uses the showHide() function -->
           <button onclick="showHide('menu')" id="menuButton" class="spacedLinks"> </button>
         </span>
       </div>
       </div>
+
+      <!-- The Menu -->
       <span id="menu">
         <a id="googleDocs" class="menuLogos" href="https://docs.google.com/document/u/0/"> </a>
         <a id="googleSlides" class="menuLogos" href="https://docs.google.com/presentation/u/0/"> </a>
@@ -45,13 +61,19 @@
         <a id="webStore" class="menuLogos" href="https://chrome.google.com/webstore/category/extensions?utm_source=chrome-ntp-icon"> </a>
       </span>
 
+      <!-- The Footer of the Webpage -->
       <div class="footer">
+
+        <!-- The Calendar, uses a JS Script -->
         <a id="calendar" href="https://calendar.google.com/calendar/r" target="_b"> 
           <script src="js/date.js"> </script>
         </a>
       </div>
 
+      <!-- The Dock -->
       <div class="dockImage">
+
+        <!-- The Icons + Links -->
         <div>
           <a id="youtubeLogo" class="sideLogos" href="https://www.youtube.com/"> </a>
           <a id="redditLogo" class="logos" href="https://www.reddit.com/"> </a>
@@ -61,6 +83,8 @@
         </div>
       </div>
     </body>
+
+    <!-- Import Scripts -->
     <script src="js/time.js"> </script>
     <script src="js/hideShow.js"> </script>
 </html>
