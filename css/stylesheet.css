@@ -1,5 +1,6 @@
 body {
     background: url(../img/backgrounds/bg.png) center center no-repeat fixed;
+    background-color: black;
     background-size: cover;
     overflow: hidden;
 }
