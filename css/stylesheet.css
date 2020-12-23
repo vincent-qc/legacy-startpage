@@ -59,12 +59,6 @@ a:hover, a:active {
     overflow-y: auto;
 }
 
-#topLinks {
-    margin: 10px;
-    display: inline-block;
-    
-}
-
 /* ----- Menu Logos ----- */
 
 #googleDocs {
@@ -169,6 +163,11 @@ a:hover, a:active {
     text-align: right;
     position: absolute;
     top: 1%;
+}
+
+.topLinks {
+    bottom: 1000px;
+    display: inline-block;
 }
 
 .search {
@@ -356,6 +355,8 @@ a:hover, a:active {
 }
 
 .spacedLinks {
-    margin-left: 4px;
-    margin-right: 4px;
+    position: relative;
+    margin-left: 6px;
+    margin-right: 6px;
+    top: 9px;
 }
